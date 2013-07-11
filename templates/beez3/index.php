@@ -1,5 +1,5 @@
 <?php
-/**
+/** test
  * @package     Joomla.Site
  * @subpackage  Templates.beez3
  * @copyright   Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.
@@ -157,7 +157,7 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/
 
 					<?php if ($showRightColumn) : ?>
 						<div id="close">
-							<a href="#" onclick="auf('right')">
+							<a href="#" onClick="auf('right')">
 							<span id="bild">
 								<?php echo JText::_('TPL_BEEZ3_TEXTRIGHTCLOSE'); ?>
 							</span>
